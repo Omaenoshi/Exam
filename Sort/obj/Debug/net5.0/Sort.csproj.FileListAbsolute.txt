@@ -1,0 +1,16 @@
+C:\Users\rassv\RiderProjects\Sort\Sort\bin\Debug\net5.0\Sort.exe
+C:\Users\rassv\RiderProjects\Sort\Sort\bin\Debug\net5.0\Sort.deps.json
+C:\Users\rassv\RiderProjects\Sort\Sort\bin\Debug\net5.0\Sort.runtimeconfig.json
+C:\Users\rassv\RiderProjects\Sort\Sort\bin\Debug\net5.0\Sort.runtimeconfig.dev.json
+C:\Users\rassv\RiderProjects\Sort\Sort\bin\Debug\net5.0\Sort.dll
+C:\Users\rassv\RiderProjects\Sort\Sort\bin\Debug\net5.0\ref\Sort.dll
+C:\Users\rassv\RiderProjects\Sort\Sort\bin\Debug\net5.0\Sort.pdb
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\Sort.csproj.AssemblyReference.cache
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\Sort.AssemblyInfoInputs.cache
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\Sort.AssemblyInfo.cs
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\Sort.csproj.CoreCompileInputs.cache
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\Sort.dll
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\ref\Sort.dll
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\Sort.pdb
+C:\Users\rassv\RiderProjects\Sort\Sort\obj\Debug\net5.0\Sort.genruntimeconfig.cache
