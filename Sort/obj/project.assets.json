@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rassv\\RiderProjects\\Sort\\Sort\\Sort.csproj",
+      "projectUniqueName": "C:\\Users\\rassv\\Documents\\GitHub\\Exam\\Sort\\Sort.csproj",
       "projectName": "Sort",
-      "projectPath": "C:\\Users\\rassv\\RiderProjects\\Sort\\Sort\\Sort.csproj",
+      "projectPath": "C:\\Users\\rassv\\Documents\\GitHub\\Exam\\Sort\\Sort.csproj",
       "packagesPath": "C:\\Users\\rassv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rassv\\RiderProjects\\Sort\\Sort\\obj\\",
+      "outputPath": "C:\\Users\\rassv\\Documents\\GitHub\\Exam\\Sort\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rassv\\AppData\\Roaming\\NuGet\\NuGet.Config",

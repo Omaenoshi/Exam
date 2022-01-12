@@ -127,6 +127,45 @@ namespace Sort
             return -1;
         }
 
+        public static ICollection<string> ABSSort(ICollection<string> words, int rank = 0)
+        {
+            if (words.Count <= 1)
+                return words;
+
+            var square = new Dictionary<char, List<string>>(62);
+            var result = new List<string>();
+            int shortWordsCounter = 0;
+            foreach (var word in words)
+            {
+                if (rank < word.Length)
+                {
+                    if (square.ContainsKey(word[rank]))
+                        square[word[rank]].Add(word);
+                    else
+                        square.Add(word[rank], new List<string> {word});
+                }
+                else
+                {
+                    result.Add(word);
+                    shortWordsCounter++;
+                }
+            }
+
+            if (shortWordsCounter == words.Count)
+                return words;
+
+            for (char i = 'А'; i <= 'я'; i++)
+            {
+                if (square.ContainsKey(i))
+                {
+                    foreach (var word in ABSSort(square[i], rank + 1))
+                        result.Add(word);
+                }
+            }
+
+            return result;
+        }
+
         public static int[] QuickSort(int[] array, int startIndex, int endIndex)
         {
             var i = startIndex;
@@ -172,7 +211,21 @@ namespace Sort
 
             return array;
         }
+        
+        private static int[] Convert(List<int>[] from)
+        {
+            var result = new List<int>();
+            foreach (var item in @from)
+            {
+                foreach (var t in item)
+                {
+                    result.Add(t);
+                }
+            }
 
+            return result.ToArray();
+        }
+        
         public static int[] TreeSort(int[] array)
         {
             var root = new Vertex(array[0]);
@@ -182,20 +235,7 @@ namespace Sort
 
             return root.Parse(new List<int>());
         }
-        
-        private static int[] Convert(List<int>[] from)
-        {
-            var result = new List<int>();
-            foreach (var item in @from)
-            {
-                for (var j = 0; j < item.Count; j++)
-                {
-                    result.Add(item[j]);
-                }
-            }
 
-            return result.ToArray();
-        }
         public class MergeSort
         {
             private string A = "../../../A.txt";
